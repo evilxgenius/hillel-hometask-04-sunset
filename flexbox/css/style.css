@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*1*/
+html {
+    background-color: #b4b4b4;
+    background-image: url('../images/background.webp');
+}
+
+/* 1 */
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+}
+
+/*10*/
+.wrapper {
+    width: 1270px;
+    margin: auto;
+    padding: 96px 50px 18px 50px;
+    background-color: white;
+}
+
+/*1*/
+h1, h3 {
+    color: #A11414;
+}
+
+/*10*/
+.header {
+    margin-bottom: 57px;
+}
+
+/*10*/
+.header__headline {
+    margin-bottom: 46px;
+    font-size: 2rem;
+}
+
+/*10*/
+.header__headline--modifier {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*11*/
+.header__headline > span {
+    font-weight: bold;
+}
+
+/*10*/
+.header__image {
+    border: 1px solid black;
+    padding: 13px;
+}
+
+/*11*/
+.header__image > img {
+    width: 100%;
+}
+
+/*10*/
+.main-content {
+    margin-bottom: 35px;
+}
+
+/*11*/
+.main-content p {
+    text-indent: 40px;
+    line-height: 19px;
+}
+
+/*10*/
+.main-content__article--modifier {
+    display: flex;
+    margin-bottom: 31px;
+}
+
+/*11*/
+.main-content__article h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/*20*/
+.main-content__article--modifier > .article-menu {
+    min-width: 165px;
+    background-color: #d7d7d7;
+    border-radius: 2px 15px;
+    padding: 29px 0 29px 26px;
+}
+
+/*21*/
+.main-content__article--modifier > .article-menu > h3 {
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+/*21*/
+.main-content__article--modifier > .article-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/*31*/
+.main-content__article--modifier > .article-menu a:hover {
+    text-decoration: underline;
+    color: #A11414;
+    font-weight: bold;
+}
+
+/*10*/
+.main-content__article--paragraph-modifier {
+    margin-top: 27px;
+}
+
+/*10*/
+.main-content__article--paragraph-text-uppercase {
+    text-transform: uppercase;
+}
+
+/*10*/
+.main-content__article--paragraph-text-color {
+    color: #A11414;
+}
+
+/*10*/
+.main-content__article--paragraph-text-line-through {
+    text-decoration: line-through;
+}
+
+/*10*/
+.footer__info {
+    width: 1000px;
+    background-image: url("../images/footer_line.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+/*11*/
+.footer__info > span {
+    font-weight: bold;
+}
