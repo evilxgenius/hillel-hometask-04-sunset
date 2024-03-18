@@ -1,0 +1,10 @@
+html {
+    background-color: #b4b4b4;
+    background-image: url('../images/background.webp');
+}
+
+.wrapper {
+    width: 1270px;
+    background-color: white;
+    margin: auto;
+}
