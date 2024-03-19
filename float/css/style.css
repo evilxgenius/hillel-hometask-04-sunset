@@ -10,6 +10,12 @@ body {
     font-weight: 400;
 }
 
+/*1*/
+/*1*/
+h1, h3 {
+    color: #A11414;
+}
+
 /*10*/
 .wrapper {
     width: 1270px;
@@ -25,7 +31,6 @@ body {
 
 /*10*/
 .header__heading {
-    color: #A11414;
     margin-bottom: 46px;
     font-size: 2rem;
 }
@@ -46,3 +51,8 @@ body {
     width: 1144px;
 }
 
+.main-content__article h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
