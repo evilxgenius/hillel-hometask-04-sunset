@@ -56,3 +56,29 @@ h1, h3 {
     font-weight: 700;
     margin-bottom: 15px;
 }
+
+.menu {
+    float: right;
+    min-width: 165px;
+    background-color: #d7d7d7;
+    border-radius: 2px 15px;
+    padding: 29px 0 29px 26px;
+}
+
+.menu > h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/*31*/
+.menu a:hover {
+    text-decoration: underline;
+    color: #A11414;
+    font-weight: bold;
+}
