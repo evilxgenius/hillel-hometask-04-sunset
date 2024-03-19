@@ -51,6 +51,10 @@ h1, h3 {
     width: 1144px;
 }
 
+.main-content__article:not(:last-child) {
+    margin-bottom: 31px;
+}
+
 .main-content__article h3 {
     font-size: 1.5rem;
     font-weight: 700;
