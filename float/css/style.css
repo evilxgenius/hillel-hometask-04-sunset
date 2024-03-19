@@ -115,3 +115,10 @@ h1, h3 {
 .main-content__article--text-through {
     text-decoration: line-through;
 }
+
+.footer {
+    width: 1000px;
+    background-image: url("../images/footer_line.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
