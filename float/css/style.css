@@ -14,7 +14,17 @@ body {
 .wrapper {
     width: 1270px;
     background-color: white;
-    margin: auto;
+    margin: 0 auto;
     padding: 96px 50px 18px 50px;
 }
 
+.header__heading {
+    color: #A11414;
+    margin-bottom: 46px;
+    font-size: 2rem;
+}
+
+.header__heading--uppercase-bold-text {
+    font-weight: 700;
+    text-transform: uppercase;
+}
