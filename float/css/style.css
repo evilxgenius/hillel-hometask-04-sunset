@@ -18,6 +18,10 @@ body {
     padding: 96px 50px 18px 50px;
 }
 
+/*10*/
+.header {
+    margin-bottom: 57px;
+}
 
 /*10*/
 .header__heading {
@@ -41,3 +45,4 @@ body {
 .header__image > img {
     width: 1144px;
 }
+
