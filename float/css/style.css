@@ -51,6 +51,7 @@ h1, h3 {
     width: 1144px;
 }
 
+
 /*20*/
 .main-content__article:not(:last-child) {
     margin-bottom: 31px;
@@ -102,6 +103,10 @@ h1, h3 {
     text-decoration: underline;
     color: #A11414;
     font-weight: bold;
+}
+
+.clear-fix {
+    clear: both;
 }
 
 .main-content__article--text-uppercase {
