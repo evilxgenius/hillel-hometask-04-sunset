@@ -1,10 +1,20 @@
+/*1*/
 html {
     background-color: #b4b4b4;
     background-image: url('../images/background.webp');
 }
 
+/* 1 */
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+}
+
+/*10*/
 .wrapper {
     width: 1270px;
     background-color: white;
     margin: auto;
+    padding: 96px 50px 18px 50px;
 }
+
