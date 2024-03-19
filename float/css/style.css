@@ -51,14 +51,31 @@ h1, h3 {
     width: 1144px;
 }
 
+/*20*/
 .main-content__article:not(:last-child) {
     margin-bottom: 31px;
 }
 
+.main-content__article:last-child {
+    margin-bottom: 35px;
+}
+
+/*21*/
 .main-content__article h3 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 15px;
+}
+
+/*21*/
+.main-content__article p {
+    line-height: 19px;
+    text-indent: 40px;
+}
+
+/*21*/
+.main-content__article p:not(:last-child) {
+    margin-bottom: 27px;
 }
 
 .menu {
@@ -85,4 +102,16 @@ h1, h3 {
     text-decoration: underline;
     color: #A11414;
     font-weight: bold;
+}
+
+.main-content__article--text-uppercase {
+    text-transform: uppercase;
+}
+
+.main-content__article--colorizerd-text {
+    color: #A11414;
+}
+
+.main-content__article--text-through {
+    text-decoration: line-through;
 }
