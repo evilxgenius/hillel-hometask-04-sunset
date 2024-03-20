@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
 /*1*/
 html {
     background-color: #b4b4b4;
     background-image: url('../images/background.webp');
+    font-size: 16px;
 }
 
 /* 1 */
@@ -54,7 +58,7 @@ h1, h3 {
 
 /*20*/
 .main-content__article:not(:last-child) {
-    margin-bottom: 31px;
+    margin-bottom: 12px;
 }
 
 /*10*/
